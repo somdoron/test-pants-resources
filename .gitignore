@@ -1,0 +1,7 @@
+target/
+project/boot/
+project/plugins/project
+project/project
+
+.pants.d/
+.pids/

@@ -1,0 +1,14 @@
+Compare the output of pants and sbt.
+
+For sbt run:
+
+```
+sbt run
+```
+
+For pants run:
+```
+./pants run src/main/scala/example:app
+```
+
+Both sbt and pants able to call `getResource("db/migration/V1.sql")` and get back a URL, however only sbt receives list of URLs when calling `.getResources("db/migration")`.

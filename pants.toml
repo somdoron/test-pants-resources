@@ -1,0 +1,15 @@
+[GLOBAL] 
+pants_version = "2.13.0a1"
+
+backend_packages = [
+  "pants.backend.experimental.java",  
+  "pants.backend.experimental.scala", 
+]
+
+[source]
+root_patterns = [
+    "src/main/*"
+]
+
+[scala]
+version_for_resolve = { "jvm-default" = "2.13.8" }
